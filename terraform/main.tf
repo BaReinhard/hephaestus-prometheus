@@ -6,7 +6,7 @@ provider "google" {
 resource "google_compute_instance" "default" {
   project      = "uplifted-elixir-203119"
   zone         = "us-west1-a"
-  name         = "wordpress-compute"
+  name         = "prometheus-compute"
   machine_type = "f1-micro"
   tags         = ["http-server"]
 
